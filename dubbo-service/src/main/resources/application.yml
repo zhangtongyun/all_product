@@ -1,0 +1,16 @@
+
+dubbo:
+  application:
+    name: dubbo-service
+  registry:
+    address: zookeeper://localhost:2181
+  protocol:
+    name: dubbo
+    port: 3304
+server:
+  port: 3303
+
+logging:
+  config: classpath:log4j.yml
+
+

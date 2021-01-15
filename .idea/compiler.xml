@@ -6,13 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbo_api" />
         <module name="all_web" />
+        <module name="spring-cloud" />
+        <module name="dubbo_api" />
+        <module name="eureka-server1" />
         <module name="dubbo_service" />
+        <module name="cloud-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="all-web" target="1.8" />
       <module name="dd" target="1.5" />
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-service" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
